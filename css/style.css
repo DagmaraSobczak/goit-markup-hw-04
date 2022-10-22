@@ -344,3 +344,23 @@ gap: 30px;
 .item{
   flex-basis: calc((100% - 60px) / 3);
 }
+.our-strengths-icon{
+  width: 70px;
+  height: 70px;
+     margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+ 
+}
+
+.our-strengths-div{
+  background: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+
+
+  
+}
+   
