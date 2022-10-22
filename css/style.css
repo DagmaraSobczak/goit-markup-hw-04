@@ -58,6 +58,8 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none ;
+margin-top: 24px;
+margin-bottom: 25px;
 }
 .studio-footer{
     color: #FFFFFF;
@@ -66,6 +68,8 @@ text-decoration: none ;
 .studio-header{
     color: #000000;
     text-decoration: none; 
+    margin-top: 24px;
+margin-bottom: 25px;
 }
 
 .menu {
@@ -198,12 +202,12 @@ color: #757575;
 .header-wrapper{
  display: flex;
   align-content: center;
-  justify-content: space-between;
+
   flex-wrap: nowrap;
   align-items: baseline;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
   width: 1200px ;
-  padding: 24px; 
+ 
   margin: 0 auto;
   
 
@@ -214,8 +218,10 @@ color: #757575;
  justify-content: space-around;
  width: 254px;
  align-items: center;
- 
- margin-right: 93px;
+ margin-top: 32px;
+ margin-right: 345px;
+ margin-bottom: 32px;
+ margin-left: 93px;
 
 }
 
@@ -224,7 +230,7 @@ color: #757575;
   flex-direction: row;
  justify-content: space-around;
  width: 295px;
- gap: 50px;
+ 
 
 } 
 
@@ -390,7 +396,7 @@ border-radius: 0px 0px 4px 4px;
  
  :root {
   --hover-color:#2196F3;
-  --4th-child-color:rgba(175, 177, 184, 1);
+  --child-color:rgba(175, 177, 184, 1);
 }
  .social-links-icon:hover{
 
@@ -431,8 +437,39 @@ display: flex;
   color:var(--hover-color);
    --color3: var(--hover-color);
 }
-.our-client-icon:nth-child(4){
-  color:var(--4th-child-color);
-   --color3: var(--4th-child-color);
-}
+/*.our-client-icon:nth-child(4){
+  color:var(--child-color);
+   #afb1b8: var(--child-color);
+}*/
 
+.div-header-mail{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 161px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+   align-items: center;
+   margin-right: 30px;
+
+}
+.header-icon{
+  width: 16px;
+  height: 12px;
+  gap: 10px;
+}
+.div-header-smartphone{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+   
+
+}
+.header-icon:hover{
+  color:var(--hover-color);
+   --color2: var(--hover-color);
+}
