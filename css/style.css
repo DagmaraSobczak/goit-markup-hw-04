@@ -437,10 +437,7 @@ display: flex;
   color:var(--hover-color);
    --color3: var(--hover-color);
 }
-/*.our-client-icon:nth-child(4){
-  color:var(--child-color);
-   #afb1b8: var(--child-color);
-}*/
+
 
 .div-header-mail{
   margin-top: 32px;
