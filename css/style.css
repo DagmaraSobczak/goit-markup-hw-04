@@ -101,6 +101,9 @@ color: #FFFFFF;
 padding-top: 20px;
 display: flex;
 font-weight: 400;
+letter-spacing: 0.03em;
+font-size: 14px;
+
   }
 
 /*.address{
@@ -306,6 +309,8 @@ img {
   display: flex;
   flex-direction: column;
 gap: 9px;
+width: 246px;
+
 }
 
 .what-we-do{
@@ -469,4 +474,24 @@ display: flex;
 .header-icon:hover{
   color:var(--hover-color);
    --color2: var(--hover-color);
+}
+.footer-social-div{
+width: 206px;
+height: 44px;
+align-items: center;
+color:#FFFFFF;
+
+}
+.social-links-icon{
+  width: 44px;
+  height: 44px;
+  gap: 10px;
+  margin-top: 20px;
+}
+.footer-position{
+  display: flex;
+ justify-content: space-between;
+ width: 523px;
+ gap: 70px;
+ margin: 0, auto;
 }
