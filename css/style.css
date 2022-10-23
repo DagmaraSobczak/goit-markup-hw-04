@@ -264,7 +264,14 @@ flex-direction: column;
 justify-content: center;
 align-content: center;
 align-items: center;
-}
+/*background: url(/image/Img\ \(9\)\ \(1\).jpg);*/
+background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/image/Img\ \(9\)\ \(1\).jpg);
+
+background-size: 1600px 600px;
+background-repeat: no-repeat;
+background-position: center;
+
+ }   
 
 h2{
 text-align: center;
